@@ -1,4 +1,8 @@
 # Elements of Programming Interviews - Java  
+
+#### NOTE
+This is a copy of [Clay Gardner's](https://github.com/gardncl) repository. I have copied it, so that I can use it to add my solutions to the problems mentioned in the book and use the test cases to verify the solutions. Please visit [here](https://github.com/gardncl/elements-of-programming-interviews) to view the original repository. Thanks Clay!
+
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/gardncl/elements-of-programming-interviews/issues)  [![Build Status](https://travis-ci.org/gardncl/elements-of-programming-interviews.svg?branch=master)](https://travis-ci.org/gardncl/elements-of-programming-interviews)
 
 [![alt text][eopi]][Elements of Programming Interviews]
