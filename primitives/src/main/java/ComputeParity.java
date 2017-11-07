@@ -6,6 +6,12 @@ public class ComputeParity {
 
     public static short parity(long n) {
 
-        return 0;
+        short count = 0;
+        while (n != 0) {
+            count ^= 1;
+            n &= (n-1);
+        }
+
+        return count;
     }
 }

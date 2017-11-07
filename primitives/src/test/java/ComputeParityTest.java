@@ -32,10 +32,20 @@ public class ComputeParityTest {
         test(expected, n);
     }
 
+
     @Test
     public void parity4() {
         expected = 0;
         n = 152950;
+
+        test(expected, n);
+    }
+
+    // EXTRA TEST
+    @Test
+    public void parity5() {
+        expected = 0;
+        n = 3;
 
         test(expected, n);
     }
