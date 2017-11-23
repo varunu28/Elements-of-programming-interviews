@@ -7,9 +7,9 @@
 - [ ] 8.5 FindOverlappingWithCycles
 - [X] 8.6 DeleteNode
 - [X] 8.7 DeleteKthLastNode
-- [ ] 8.8 RemoveDuplicatesFromSortedList
-- [ ] 8.9 CyclicRightShift
-- [ ] 8.10 EvenOddMerge
+- [X] 8.8 RemoveDuplicatesFromSortedList
+- [X] 8.9 CyclicRightShift
+- [X] 8.10 EvenOddMerge
 - [ ] 8.11 Palindromic
 - [ ] 8.12 ListPivot
 - [ ] 8.13 AddIntegers
