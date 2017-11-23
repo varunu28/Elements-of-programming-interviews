@@ -10,6 +10,6 @@
 - [X] 8.8 RemoveDuplicatesFromSortedList
 - [X] 8.9 CyclicRightShift
 - [X] 8.10 EvenOddMerge
-- [ ] 8.11 Palindromic
-- [ ] 8.12 ListPivot
-- [ ] 8.13 AddIntegers
+- [X] 8.11 Palindromic
+- [X] 8.12 ListPivot
+- [X] 8.13 AddIntegers
