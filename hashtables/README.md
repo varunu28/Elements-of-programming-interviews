@@ -1,11 +1,11 @@
 # Chapter 13: Hash Tables
 
-- [ ] 13.1 PalindromicPermutations
-- [ ] 13.2 IsLetterConstructable
+- [X] 13.1 PalindromicPermutations
+- [X] 13.2 IsLetterConstructable
 - [ ] 13.3 LRUCache
 - [ ] 13.4 ComputeLCA
 - [ ] 13.5 ComputeKMostFrequent
-- [ ] 13.6 NearestRepeated
+- [X] 13.6 NearestRepeated
 - [ ] 13.7 SmallestSubarray
 - [ ] 13.8 SmallestSequentialSubarray
 - [ ] 13.9 LongestSubarray
