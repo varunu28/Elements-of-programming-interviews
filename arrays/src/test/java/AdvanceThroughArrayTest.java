@@ -20,8 +20,8 @@ public class AdvanceThroughArrayTest {
 
     @Test
     public void arrayAdvance2() {
-        array = Arrays.asList(1,1,0,0);;
-        possible = false;
+        array = Arrays.asList(3,3,1,0,2,0,1);;
+        possible = true;
 
         test(array, possible);
     }
