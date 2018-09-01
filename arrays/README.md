@@ -1,10 +1,10 @@
 # Chapter 6: Arrays  
 
-- [X] 6.1 DutchNationalFlag
-- [X] 6.2 IncrementArbitraryPrecisionInteger
-- [X] 6.3 MultipleArbitraryPrecisionInteger
-- [X] 6.4 AdvanceThroughArray
-- [X] 6.5 DeleteDuplicates
+- [ ] 6.1 DutchNationalFlag
+- [ ] 6.2 IncrementArbitraryPrecisionInteger
+- [ ] 6.3 MultipleArbitraryPrecisionInteger
+- [ ] 6.4 AdvanceThroughArray
+- [ ] 6.5 DeleteDuplicates
 - [ ] 6.6 BuySellStockOnce
 - [ ] 6.7 BuySellStockTwice
 - [ ] 6.8 EnumeratePrimes
