@@ -1,6 +1,6 @@
 import org.junit.Test;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
@@ -12,22 +12,23 @@ public class IncrementArbitraryPrecisionIntegerTest {
 
     @Test
     public void incrementInteger1() {
-        input = Arrays.asList(1, 2, 9);
-        incremented = Arrays.asList(1, 3, 0);
+        input = getArrayList(new int[]{1, 2, 9});
+        incremented = getArrayList(new int[]{1, 3, 0});
+
         test(input,incremented);
     }
 
     @Test
     public void incrementInteger2() {
-        input = Arrays.asList(9,9,9,9,9,9,9);
-        incremented = Arrays.asList(0,0,0,0,0,0,0);
+        input = getArrayList(new int[]{9,9,9,9,9,9,9});
+        incremented = getArrayList(new int[]{1,0,0,0,0,0,0,0});
         test(input,incremented);
     }
 
     @Test
     public void incrementInteger3() {
-        input = Arrays.asList(8,9,9,9,9,9,9);
-        incremented = Arrays.asList(9,0,0,0,0,0,0);
+        input = getArrayList(new int[]{8,9,9,9,9,9,9});
+        incremented = getArrayList(new int[]{9,0,0,0,0,0,0});
         test(input,incremented);
     }
 
@@ -36,5 +37,12 @@ public class IncrementArbitraryPrecisionIntegerTest {
         assertEquals(incremented, input);
     }
 
+    private List<Integer> getArrayList(int[] arr) {
+        List<Integer> list = new ArrayList<>();
+        for (int num : arr) {
+            list.add(num);
+        }
 
+        return list;
+    }
 }
