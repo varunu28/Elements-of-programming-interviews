@@ -12,7 +12,7 @@ public class AdvanceThroughArrayTest {
 
     @Test
     public void arrayAdvance1() {
-        array = Arrays.asList(1,2,0,0);;
+        array = Arrays.asList(1,2,0,0);
         possible = true;
 
         test(array, possible);
@@ -20,7 +20,7 @@ public class AdvanceThroughArrayTest {
 
     @Test
     public void arrayAdvance2() {
-        array = Arrays.asList(3,3,1,0,2,0,1);;
+        array = Arrays.asList(3,3,1,0,2,0,1);
         possible = true;
 
         test(array, possible);
