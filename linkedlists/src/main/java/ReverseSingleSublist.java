@@ -5,7 +5,6 @@ public class ReverseSingleSublist {
     */
 
     public static ListNode<Integer> reverseSublist(ListNode<Integer> input, int s, int f) {
-
-        return input;
+        return null;
     }
 }
