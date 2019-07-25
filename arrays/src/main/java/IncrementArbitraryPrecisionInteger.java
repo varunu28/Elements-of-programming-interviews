@@ -1,4 +1,3 @@
-import java.util.Collections;
 import java.util.List;
 
 public class IncrementArbitraryPrecisionInteger {
@@ -9,29 +8,19 @@ public class IncrementArbitraryPrecisionInteger {
 
     public static List<Integer> incrementInteger(List<Integer> A) {
         int carry = 1;
-
-        Collections.reverse(A);
-
-        for (int i = 0; i < A.size(); i++) {
-            int num = A.get(i) + carry;
-
-            if (num > 9) {
-                carry = 1;
-                num = 0;
-            }
-            else {
-                carry = 0;
+        int idx = A.size() - 1;
+        while (idx >= 0) {
+            int sum = A.get(idx) + carry;
+            if (sum <= 9) {
+                A.set(idx, sum);
+                return A;
             }
 
-            A.set(i, num);
+            A.set(idx, sum % 10);
+            idx--;
         }
 
-        if (carry == 1) {
-            A.add(1);
-        }
-
-        Collections.reverse(A);
-
+        A.add(0, 1);
         return A;
     }
 }

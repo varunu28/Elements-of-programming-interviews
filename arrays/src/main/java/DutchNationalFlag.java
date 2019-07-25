@@ -8,22 +8,25 @@ public class DutchNationalFlag {
     */
 
     public static void dutchNationalFlag(int p, List<Integer> A) {
-        int pivot = A.get(p);
-        int smaller = 0;
-        int equal = 0;
-        int larger = p+1;
+        int replacementIdx = 0;
+        int pivotVal = A.get(p);
 
-        while (equal < larger) {
-            if (A.get(equal) < pivot) {
-                Collections.swap(A, smaller++, equal++);
+        // Travel from left to right and keep swapping with replacement index if less than pivot found
+        for (int i = 0; i < A.size(); i++) {
+            if (A.get(i) < pivotVal) {
+                Collections.swap(A, i, replacementIdx);
+                replacementIdx++;
             }
-            else if (A.get(equal) == pivot) {
-                ++equal;
-            }
-            else {
-                Collections.swap(A, equal, --larger);
+        }
+
+        replacementIdx = A.size() - 1;
+
+        // Travel from right to left and keep swapping with replacement index if greater than pivot found
+        for (int i = A.size() - 1; i >= 0; i--) {
+            if (A.get(i) > pivotVal) {
+                Collections.swap(A, i, replacementIdx);
+                replacementIdx--;
             }
         }
     }
-
 }

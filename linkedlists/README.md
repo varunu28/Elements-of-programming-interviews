@@ -1,6 +1,6 @@
 # Chapter 8: Linked Lists
 
-- [X] 8.1 MergeSortedLists
+- [ ] 8.1 MergeSortedLists
 - [ ] 8.2 ReverseSingleSublist
 - [ ] 8.3 TestCyclicity
 - [ ] 8.4 TestForOverlappingLists
