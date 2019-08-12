@@ -7,6 +7,13 @@ public class AdvanceThroughArray {
     */
 
     public static boolean arrayAdvance(List<Integer> A) {
-        return false;
+        int furthestReachSoFar = 0;
+        int lastIdx = A.size() - 1;
+
+        for (int i = 0; i <= furthestReachSoFar && furthestReachSoFar < lastIdx; i++) {
+            furthestReachSoFar = Math.max(furthestReachSoFar, i + A.get(i));
+        }
+
+        return furthestReachSoFar >= lastIdx;
     }
 }
