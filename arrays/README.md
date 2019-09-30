@@ -6,7 +6,7 @@
 - [X] 6.4 AdvanceThroughArray
 - [X] 6.5 DeleteDuplicates
 - [X] 6.6 BuySellStockOnce
-- [ ] 6.7 BuySellStockTwice
+- [X] 6.7 BuySellStockTwice
 - [X] 6.8 EnumeratePrimes
 - [ ] 6.9 PermuteElements
 - [ ] 6.10 NextPermutation
