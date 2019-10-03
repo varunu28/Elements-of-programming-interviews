@@ -8,8 +8,8 @@
 - [X] 6.6 BuySellStockOnce
 - [X] 6.7 BuySellStockTwice
 - [X] 6.8 EnumeratePrimes
-- [ ] 6.9 PermuteElements
-- [ ] 6.10 NextPermutation
+- [X] 6.9 PermuteElements
+- [X] 6.10 NextPermutation
 - [ ] 6.11 SampleOfflineData
 - [ ] 6.12 SampleOnlineData
 - [ ] 6.13 ComputeRandomPermutation
