@@ -1,5 +1,6 @@
-import java.util.ArrayList;
-import java.util.Stack;
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class QueueWithMax {
 
@@ -7,22 +8,36 @@ public class QueueWithMax {
     9.10
     */
 
-    int maxVal = Integer.MIN_VALUE;
-
+    Queue<Integer> queue;
+    Deque<Integer> maxQueue;
     public QueueWithMax() {
+        queue = new LinkedList<>();
+        maxQueue = new LinkedList<>();
     }
 
     public void enqueue(Integer x) {
-
+        queue.add(x);
+        while (!maxQueue.isEmpty() && maxQueue.peekLast() < x) {
+            maxQueue.removeLast();
+        }
+        maxQueue.addLast(x);
     }
 
     public Integer dequeue() {
-
-        return -1;
+        if (queue.isEmpty()) {
+            return -1;
+        }
+        int removed = queue.remove();
+        if (removed == maxQueue.peekFirst()) {
+            maxQueue.removeFirst();
+        }
+        return removed;
     }
 
     public Integer max() {
-        return -1;
+        if (maxQueue.isEmpty()) {
+            return -1;
+        }
+        return maxQueue.peekFirst();
     }
-
 }
