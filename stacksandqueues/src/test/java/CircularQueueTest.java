@@ -31,7 +31,7 @@ public class CircularQueueTest {
     }
 
     private void test(int size) {
-        final CircularQueue queue = new CircularQueue(capacity);
+        final CircularQueue queue = new CircularQueue(size);
         List<Integer> integers = StreamUtil.sequence(size);
         integers.forEach(
                 i -> queue.enqueue(i)

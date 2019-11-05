@@ -7,6 +7,6 @@
 - [ ] 9.5 SearchPostingsList
 - [ ] 9.6 ComputeBuildingsWithView
 - [ ] 9.7 ComputeBinaryTreeNodes
-- [ ] 9.8 CircularQueue
+- [X] 9.8 CircularQueue
 - [X] 9.9 QueueWithStacks
 - [X] 9.10 QueueWithMax
