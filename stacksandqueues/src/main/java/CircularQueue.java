@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
 
 public class CircularQueue {
 
@@ -10,32 +12,40 @@ public class CircularQueue {
     private int tail;
     private int capacity;
     private int[] entries;
+    private int numberOfElements;
+    private final int SCALE_FACTOR = 2;
 
     public CircularQueue(int capacity) {
         head = 0;
         tail = 0;
+        numberOfElements = 0;
         this.capacity = capacity;
         entries = new int[this.capacity];
-        Arrays.fill(entries, -1);
     }
 
     public void enqueue(Integer x) {
-        if ((tail + 1 <= capacity && tail + 1 == head) || (tail + 1 > capacity && head == 0)) {
-            return;
+        if (numberOfElements == entries.length) {
+            Collections.rotate(Arrays.asList(entries), -head);
+            head = 0;
+            tail = numberOfElements;
+            entries = Arrays.copyOf(entries, numberOfElements * SCALE_FACTOR);
         }
-        entries[tail++] = x;
+        entries[tail] = x;
+        tail = (tail + 1) % entries.length;
+        numberOfElements++;
     }
 
     public Integer dequeue() {
-        if (entries[head] == -1) {
+        if (numberOfElements == 0) {
             return -1;
         }
         int removed = entries[head];
-        entries[head++] = -1;
+        head = (head + 1) % entries.length;
+        numberOfElements--;
         return removed;
     }
 
     public int size() {
-        return tail - head;
+        return numberOfElements;
     }
 }
