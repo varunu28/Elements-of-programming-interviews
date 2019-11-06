@@ -3,7 +3,7 @@
 - [X] 9.1 StackWithMax
 - [X] 9.2 EvaluateRPNExpressions
 - [X] 9.3 IsStringWellFormed
-- [ ] 9.4 NormalizedPathnames
+- [X] 9.4 NormalizedPathnames
 - [ ] 9.5 SearchPostingsList
 - [ ] 9.6 ComputeBuildingsWithView
 - [ ] 9.7 ComputeBinaryTreeNodes
