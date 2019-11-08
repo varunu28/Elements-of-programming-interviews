@@ -5,7 +5,7 @@
 - [X] 9.3 IsStringWellFormed
 - [X] 9.4 NormalizedPathnames
 - [ ] 9.5 SearchPostingsList
-- [ ] 9.6 ComputeBuildingsWithView
+- [X] 9.6 ComputeBuildingsWithView
 - [X] 9.7 ComputeBinaryTreeNodes
 - [X] 9.8 CircularQueue
 - [X] 9.9 QueueWithStacks

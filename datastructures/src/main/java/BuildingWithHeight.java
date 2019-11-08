@@ -16,4 +16,8 @@ public class BuildingWithHeight {
         return false;
     }
 
+    @Override
+    public String toString() {
+        return this.id + " " + this.height;
+    }
 }
