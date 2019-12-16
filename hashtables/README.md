@@ -2,7 +2,7 @@
 
 - [X] 13.1 PalindromicPermutations
 - [X] 13.2 IsLetterConstructable
-- [ ] 13.3 LRUCache
+- [X] 13.3 LRUCache
 - [ ] 13.4 ComputeLCA
 - [ ] 13.5 ComputeKMostFrequent
 - [X] 13.6 NearestRepeated
