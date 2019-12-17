@@ -4,9 +4,9 @@
 - [X] 13.2 IsLetterConstructable
 - [X] 13.3 LRUCache
 - [ ] 13.4 ComputeLCA
-- [ ] 13.5 ComputeKMostFrequent
+- [X] 13.5 ComputeKMostFrequent
 - [X] 13.6 NearestRepeated
-- [ ] 13.7 SmallestSubarray
+- [X] 13.7 SmallestSubarray
 - [ ] 13.8 SmallestSequentialSubarray
 - [ ] 13.9 LongestSubarray
 - [ ] 13.10 LongestContainedInterval

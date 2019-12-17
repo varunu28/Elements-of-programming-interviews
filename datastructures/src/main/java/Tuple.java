@@ -12,6 +12,14 @@ public class Tuple {
     }
 
     @Override
+    public String toString() {
+        return "Tuple{" +
+            "first=" + first +
+            ", second=" + second +
+            '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
