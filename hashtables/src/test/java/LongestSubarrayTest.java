@@ -20,7 +20,7 @@ public class LongestSubarrayTest {
 
     @Test
     public void longestSubarray2() throws Exception {
-        expected = 5;
+        expected = 7;
         list = Arrays.asList(7,1,8,7,9,3,4,1,2,3,4,5,3,7,2,9);
 
         test(expected, list);
