@@ -1,6 +1,6 @@
 # Chapter 19: Graphs
 
-- [ ] 19.1 SearchMaze
+- [X] 19.1 SearchMaze
 - [ ] 19.2 PaintBooleanMatrix
 - [ ] 19.3 ComputeEnclosedRegions
 - [ ] 19.4 DeadlockDetection

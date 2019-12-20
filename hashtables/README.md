@@ -11,6 +11,6 @@
 - [X] 13.9 LongestSubarray
 - [ ] 13.10 LongestContainedInterval
 - [X] 13.11 ComputeAverageTopThree
-- [ ] 13.12 ComputeStringDecompositions
+- [X] 13.12 ComputeStringDecompositions
 - [ ] 13.13 CollatzConjecture
 - [ ] 13.14 HashFunctionChess

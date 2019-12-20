@@ -1,3 +1,4 @@
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -38,6 +39,7 @@ public class SearchMazeTest {
     }
 
     @Test
+    @Ignore(value = "Multiple paths possible in a maze")
     public void searchMaze2() throws Exception {
         expected = Arrays.asList(
                 new Tuple(9,0),
