@@ -4,8 +4,8 @@ public class CheckIfIntegerIsPalindrome {
     5.9
     */
 
-    public static boolean isPalindrome(int x) {
+  public static boolean isPalindrome(int x) {
 
-        return false;
-    }
+    return false;
+  }
 }

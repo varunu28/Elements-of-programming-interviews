@@ -7,8 +7,8 @@ public class GeneratePalindromicDecompositions {
     16.7
     */
 
-    public static List<List<String>> palindromicPartitioning(String input) {
+  public static List<List<String>> palindromicPartitioning(String input) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

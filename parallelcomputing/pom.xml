@@ -1,40 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>elements-of-programming-interviews</artifactId>
-        <groupId>gardncl</groupId>
-        <version>1.0</version>
-    </parent>
-    <modelVersion>4.0.0</modelVersion>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>parallelcomputing</artifactId>
+  <dependencies>
+    <dependency>
+      <artifactId>concurrentunit</artifactId>
+      <groupId>net.jodah</groupId>
+      <version>0.4.2</version>
+    </dependency>
+    <dependency>
+      <artifactId>datastructures</artifactId>
+      <groupId>gardncl</groupId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <artifactId>dynamicprogramming</artifactId>
+      <groupId>gardncl</groupId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <artifactId>utils</artifactId>
+      <groupId>gardncl</groupId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
 
-    <artifactId>parallelcomputing</artifactId>
-    <name>Chapter 20: Parallel Computing</name>
+  <modelVersion>4.0.0</modelVersion>
+  <name>Chapter 20: Parallel Computing</name>
 
-    <dependencies>
-        <dependency>
-            <groupId>net.jodah</groupId>
-            <artifactId>concurrentunit</artifactId>
-            <version>0.4.2</version>
-        </dependency>
-        <dependency>
-            <groupId>gardncl</groupId>
-            <artifactId>datastructures</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>gardncl</groupId>
-            <artifactId>dynamicprogramming</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>gardncl</groupId>
-            <artifactId>utils</artifactId>
-            <version>1.0</version>
-        </dependency>
-    </dependencies>
-
+  <parent>
+    <artifactId>elements-of-programming-interviews</artifactId>
+    <groupId>gardncl</groupId>
+    <version>1.0</version>
+  </parent>
 
 
 </project>

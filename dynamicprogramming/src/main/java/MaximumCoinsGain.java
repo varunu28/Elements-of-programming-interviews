@@ -6,8 +6,8 @@ public class MaximumCoinsGain {
     17.9
     */
 
-    public static int computeMaximum(List<Integer> coins) {
+  public static int computeMaximum(List<Integer> coins) {
 
-        return 0;
-    }
+    return 0;
+  }
 }

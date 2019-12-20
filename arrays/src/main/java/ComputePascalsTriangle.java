@@ -7,8 +7,8 @@ public class ComputePascalsTriangle {
     6.19
     */
 
-    public static List<List<Integer>> generatePascalTriangle(int n) {
+  public static List<List<Integer>> generatePascalTriangle(int n) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

@@ -8,9 +8,9 @@ public class SortAlmostSorted {
     11.3
     */
 
-    public static List sort(Iterator<Integer> sequence, int k) {
+  public static List sort(Iterator<Integer> sequence, int k) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 
 }

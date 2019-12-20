@@ -7,8 +7,8 @@ public class GenerateSubsetsK {
     16.5
     */
 
-    public static List<List<Integer>> combinations(int n, int k) {
+  public static List<List<Integer>> combinations(int n, int k) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

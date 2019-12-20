@@ -6,8 +6,8 @@ public class SearchSortedIndex {
     12.2
     */
 
-    public static int search(List<Integer> list) {
+  public static int search(List<Integer> list) {
 
-        return 0;
-    }
+    return 0;
+  }
 }

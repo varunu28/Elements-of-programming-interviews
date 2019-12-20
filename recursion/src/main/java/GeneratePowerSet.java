@@ -7,8 +7,8 @@ public class GeneratePowerSet {
     16.4
     */
 
-    public static List<List<Integer>> generatePowerSet(List<Integer> inputSet) {
+  public static List<List<Integer>> generatePowerSet(List<Integer> inputSet) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

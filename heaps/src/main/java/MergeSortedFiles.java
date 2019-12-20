@@ -7,8 +7,8 @@ public class MergeSortedFiles {
     11.1
     */
 
-    public static List<Integer> mergeSorted(List<List<Integer>> sortedArrays) {
+  public static List<Integer> mergeSorted(List<List<Integer>> sortedArrays) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

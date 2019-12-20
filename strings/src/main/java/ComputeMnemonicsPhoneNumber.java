@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 
 public class ComputeMnemonicsPhoneNumber {
 
@@ -7,9 +8,9 @@ public class ComputeMnemonicsPhoneNumber {
     */
 
 
-    public static List<String> computeMnemonics(String phoneNumber) {
+  public static List<String> computeMnemonics(String phoneNumber) {
 
-        return Arrays.asList("");
-    }
+    return Arrays.asList("");
+  }
 
 }

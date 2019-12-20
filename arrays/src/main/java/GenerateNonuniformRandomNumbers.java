@@ -6,8 +6,8 @@ public class GenerateNonuniformRandomNumbers {
     6.15
     */
 
-    public static int getRandom(List<Integer> values, List<Double> probabilities) {
+  public static int getRandom(List<Integer> values, List<Double> probabilities) {
 
-        return 1;
-    }
+    return 1;
+  }
 }

@@ -7,8 +7,8 @@ public class ComputeKLargest {
     11.6
     */
 
-    public static List<Integer> kLargestInBinaryHeap(final List<Integer> list, int k) {
+  public static List<Integer> kLargestInBinaryHeap(final List<Integer> list, int k) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

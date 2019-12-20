@@ -7,9 +7,9 @@ public class ComputeExterior {
     10.15
     */
 
-    public static List<BinaryTree<Integer>> exteriorBinaryTree(BinaryTree<Integer> tree) {
+  public static List<BinaryTree<Integer>> exteriorBinaryTree(BinaryTree<Integer> tree) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 
 }

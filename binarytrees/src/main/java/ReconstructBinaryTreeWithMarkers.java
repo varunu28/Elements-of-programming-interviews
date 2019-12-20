@@ -6,8 +6,8 @@ public class ReconstructBinaryTreeWithMarkers {
     10.13
     */
 
-    public static BinaryTree<Integer> reconstructPreorder(List<Integer> preorder) {
+  public static BinaryTree<Integer> reconstructPreorder(List<Integer> preorder) {
 
-        return new BinaryTree<Integer>(0);
-    }
+    return new BinaryTree<Integer>(0);
+  }
 }

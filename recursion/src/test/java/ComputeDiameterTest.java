@@ -1,22 +1,22 @@
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
-import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class ComputeDiameterTest {
 
-    private int expected;
-    private TreeNode T;
+  private int expected;
+  private TreeNode T;
 
-    @Test
-    public void computeDiameter1() throws Exception {
-        expected = 31;
-        T = TreeNodeUtil.getTreeNode();
+  @Test
+  public void computeDiameter1() throws Exception {
+    expected = 31;
+    T = TreeNodeUtil.getTreeNode();
 
-        test(expected, T);
-    }
+    test(expected, T);
+  }
 
-    private void test(int expected, TreeNode T) {
-        assertEquals(expected, ComputeDiameter.computeDiameter(T));
-    }
+  private void test(int expected, TreeNode T) {
+    assertEquals(expected, ComputeDiameter.computeDiameter(T));
+  }
 
 }

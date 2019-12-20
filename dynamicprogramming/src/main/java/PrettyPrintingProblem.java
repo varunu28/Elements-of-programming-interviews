@@ -6,8 +6,8 @@ public class PrettyPrintingProblem {
     17.11
     */
 
-    public static int minimumMessiness(List<String> words, int lineLength) {
+  public static int minimumMessiness(List<String> words, int lineLength) {
 
-        return 0;
-    }
+    return 0;
+  }
 }

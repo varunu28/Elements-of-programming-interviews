@@ -7,8 +7,8 @@ public class IntervalCoveringProblem {
     18.3
     */
 
-    public static List<Integer> findMinimumVisits(List<Tuple> intervals) {
+  public static List<Integer> findMinimumVisits(List<Tuple> intervals) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

@@ -7,8 +7,8 @@ public class GenerateBinaryTrees {
     16.8
     */
 
-    public static List<BinaryTree<Integer>> generateAllBinaryTrees(int numNodes) {
+  public static List<BinaryTree<Integer>> generateAllBinaryTrees(int numNodes) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

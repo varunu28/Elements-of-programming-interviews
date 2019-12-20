@@ -6,7 +6,7 @@ public class SampleOfflineData {
     6.11
     */
 
-    public static void randomSampling(int k, List<Integer> list) {
+  public static void randomSampling(int k, List<Integer> list) {
 
-    }
+  }
 }

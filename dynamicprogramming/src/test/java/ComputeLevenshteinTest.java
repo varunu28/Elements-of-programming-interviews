@@ -1,42 +1,42 @@
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
-import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class ComputeLevenshteinTest {
 
-    private int expected;
-    private String A;
-    private String B;
+  private int expected;
+  private String A;
+  private String B;
 
-    @Test
-    public void levenschteinDistance1() throws Exception {
-        expected = 4;
-        A = "Saturday";
-        B = "Sunday";
+  @Test
+  public void levenschteinDistance1() throws Exception {
+    expected = 4;
+    A = "Saturday";
+    B = "Sunday";
 
-        test(expected, A, B);
-    }
+    test(expected, A, B);
+  }
 
-    @Test
-    public void levenschteinDistance2() throws Exception {
-        expected = 2;
-        A = "book";
-        B = "back";
+  @Test
+  public void levenschteinDistance2() throws Exception {
+    expected = 2;
+    A = "book";
+    B = "back";
 
-        test(expected, A, B);
-    }
+    test(expected, A, B);
+  }
 
-    @Test
-    public void levenschteinDistance3() throws Exception {
-        expected = 9;
-        A = "fantastic";
-        B = "excellent";
+  @Test
+  public void levenschteinDistance3() throws Exception {
+    expected = 9;
+    A = "fantastic";
+    B = "excellent";
 
-        test(expected, A, B);
-    }
+    test(expected, A, B);
+  }
 
-    private void test(int expected, String A, String B) {
-        assertEquals(expected, ComputeLevenshtein.levenschteinDistance(A,B));
-    }
+  private void test(int expected, String A, String B) {
+    assertEquals(expected, ComputeLevenshtein.levenschteinDistance(A, B));
+  }
 
 }

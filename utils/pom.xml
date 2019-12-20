@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>elements-of-programming-interviews</artifactId>
-        <groupId>gardncl</groupId>
-        <version>1.0</version>
-    </parent>
-    <modelVersion>4.0.0</modelVersion>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>utils</artifactId>
+  <dependencies>
+    <dependency>
+      <artifactId>datastructures</artifactId>
+      <groupId>gardncl</groupId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <artifactId>junit</artifactId>
+      <groupId>junit</groupId>
+      <version>${junit.version}</version>
+    </dependency>
+  </dependencies>
 
-    <artifactId>utils</artifactId>
-    <name>Utilities</name>
+  <modelVersion>4.0.0</modelVersion>
+  <name>Utilities</name>
 
-    <dependencies>
-        <dependency>
-            <groupId>gardncl</groupId>
-            <artifactId>datastructures</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-        </dependency>
-    </dependencies>
+  <parent>
+    <artifactId>elements-of-programming-interviews</artifactId>
+    <groupId>gardncl</groupId>
+    <version>1.0</version>
+  </parent>
 
 
 </project>

@@ -1,42 +1,39 @@
-import org.junit.Test;
-
 import java.util.Collections;
 import java.util.List;
-
-import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class ImplementFastSortingTest {
 
-    private ListNode<Integer> expected;
-    private ListNode<Integer> L;
-    private int n;
+  private ListNode<Integer> expected;
+  private ListNode<Integer> L;
+  private int n;
 
-    @Test
-    public void sort1() throws Exception {
-        n = 10;
+  @Test
+  public void sort1() throws Exception {
+    n = 10;
 
-        test(n);
-    }
+    test(n);
+  }
 
-    @Test
-    public void sort2() throws Exception {
-        n = 50;
+  @Test
+  public void sort2() throws Exception {
+    n = 50;
 
-        test(n);
-    }
+    test(n);
+  }
 
-    @Test
-    public void sort3() throws Exception {
-        n = 100;
+  @Test
+  public void sort3() throws Exception {
+    n = 100;
 
-        test(n);
-    }
+    test(n);
+  }
 
-    private void test(int n) {
-        List<Integer> list = StreamUtil.sequence(n);
-        expected = NodeUtil.createList(list);
-        Collections.shuffle(list);
-        L = NodeUtil.createList(list);
-        AssertUtils.assertSameList(expected, ImplementFastSorting.sort(L));
-    }
+  private void test(int n) {
+    List<Integer> list = StreamUtil.sequence(n);
+    expected = NodeUtil.createList(list);
+    Collections.shuffle(list);
+    L = NodeUtil.createList(list);
+    AssertUtils.assertSameList(expected, ImplementFastSorting.sort(L));
+  }
 }

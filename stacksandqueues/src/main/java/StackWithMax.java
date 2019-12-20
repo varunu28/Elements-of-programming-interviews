@@ -2,39 +2,39 @@ import java.util.Stack;
 
 public class StackWithMax {
 
-    /*
-    9.1
-    */
-    Stack<Integer> stack;
-    Stack<Integer> maxStack;
-    public StackWithMax() {
-        stack = new Stack<>();
-        maxStack = new Stack<>();
-    }
+  /*
+  9.1
+  */
+  Stack<Integer> stack;
+  Stack<Integer> maxStack;
 
-    public Integer max() {
-        if (!maxStack.isEmpty()) {
-            return maxStack.peek();
-        }
-        return -1;
-    }
+  public StackWithMax() {
+    stack = new Stack<>();
+    maxStack = new Stack<>();
+  }
 
-    public Integer pop() {
-        if (stack.isEmpty()) {
-            return -1;
-        }
-        int popped = stack.pop();
-        maxStack.pop();
-        return popped;
+  public Integer max() {
+    if (!maxStack.isEmpty()) {
+      return maxStack.peek();
     }
+    return -1;
+  }
 
-    public void push(Integer x) {
-        stack.push(x);
-        if (maxStack.isEmpty()) {
-            maxStack.push(x);
-        }
-        else {
-            maxStack.push(Math.max(maxStack.peek(), x));
-        }
+  public Integer pop() {
+    if (stack.isEmpty()) {
+      return -1;
     }
+    int popped = stack.pop();
+    maxStack.pop();
+    return popped;
+  }
+
+  public void push(Integer x) {
+    stack.push(x);
+    if (maxStack.isEmpty()) {
+      maxStack.push(x);
+    } else {
+      maxStack.push(Math.max(maxStack.peek(), x));
+    }
+  }
 }

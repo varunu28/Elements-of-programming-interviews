@@ -6,8 +6,8 @@ public class ThreeSumProblem {
     18.4
     */
 
-    public static boolean hasThreeSum(List<Integer> A, int t) {
+  public static boolean hasThreeSum(List<Integer> A, int t) {
 
-        return false;
-    }
+    return false;
+  }
 }

@@ -1,46 +1,46 @@
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
-import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class IsHeightBalancedTest {
 
-    private boolean expected;
-    private BinaryTree<Integer> tree;
+  private boolean expected;
+  private BinaryTree<Integer> tree;
 
-    @Test
-    public void isBalanced1() throws Exception {
-        expected = true;
-        tree = BinaryTreeUtil.getEvenTree();
+  @Test
+  public void isBalanced1() throws Exception {
+    expected = true;
+    tree = BinaryTreeUtil.getEvenTree();
 
-        test(expected, tree);
-    }
+    test(expected, tree);
+  }
 
-    @Test
-    public void isBalanced2() throws Exception {
-        expected = false;
-        tree = BinaryTreeUtil.getOddTree();
+  @Test
+  public void isBalanced2() throws Exception {
+    expected = false;
+    tree = BinaryTreeUtil.getOddTree();
 
-        test(expected, tree);
-    }
+    test(expected, tree);
+  }
 
-    @Test
-    public void isBalanced3() throws Exception {
-        expected = true;
-        tree = BinaryTreeUtil.getFullTree();
+  @Test
+  public void isBalanced3() throws Exception {
+    expected = true;
+    tree = BinaryTreeUtil.getFullTree();
 
-        test(expected, tree);
-    }
+    test(expected, tree);
+  }
 
-    @Test
-    public void isBalanced4() throws Exception {
-        expected = false;
-        tree = BinaryTreeUtil.getFigureTenDotOne();
+  @Test
+  public void isBalanced4() throws Exception {
+    expected = false;
+    tree = BinaryTreeUtil.getFigureTenDotOne();
 
-        test(expected, tree);
-    }
+    test(expected, tree);
+  }
 
-    private void test(boolean expected, BinaryTree<Integer> tree) {
-        assertEquals(expected, IsHeightBalanced.isBalanced(tree));
-    }
+  private void test(boolean expected, BinaryTree<Integer> tree) {
+    assertEquals(expected, IsHeightBalanced.isBalanced(tree));
+  }
 
 }

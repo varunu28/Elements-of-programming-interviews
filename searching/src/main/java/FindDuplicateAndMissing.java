@@ -6,8 +6,8 @@ public class FindDuplicateAndMissing {
     12.10
     */
 
-    public static Tuple search(List<Integer> list) {
+  public static Tuple search(List<Integer> list) {
 
-        return new Tuple(0,0);
-    }
+    return new Tuple(0, 0);
+  }
 }

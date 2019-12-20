@@ -7,9 +7,9 @@ public class ComputeValidIPAddresses {
     7.10
     */
 
-    public static List<String> computeValidIPAddresses(String s) {
+  public static List<String> computeValidIPAddresses(String s) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 
 }

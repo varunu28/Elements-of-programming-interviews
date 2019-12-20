@@ -8,36 +8,37 @@ public class QueueWithMax {
     9.10
     */
 
-    Queue<Integer> queue;
-    Deque<Integer> maxQueue;
-    public QueueWithMax() {
-        queue = new LinkedList<>();
-        maxQueue = new LinkedList<>();
-    }
+  Queue<Integer> queue;
+  Deque<Integer> maxQueue;
 
-    public void enqueue(Integer x) {
-        queue.add(x);
-        while (!maxQueue.isEmpty() && maxQueue.peekLast() < x) {
-            maxQueue.removeLast();
-        }
-        maxQueue.addLast(x);
-    }
+  public QueueWithMax() {
+    queue = new LinkedList<>();
+    maxQueue = new LinkedList<>();
+  }
 
-    public Integer dequeue() {
-        if (queue.isEmpty()) {
-            return -1;
-        }
-        int removed = queue.remove();
-        if (removed == maxQueue.peekFirst()) {
-            maxQueue.removeFirst();
-        }
-        return removed;
+  public void enqueue(Integer x) {
+    queue.add(x);
+    while (!maxQueue.isEmpty() && maxQueue.peekLast() < x) {
+      maxQueue.removeLast();
     }
+    maxQueue.addLast(x);
+  }
 
-    public Integer max() {
-        if (maxQueue.isEmpty()) {
-            return -1;
-        }
-        return maxQueue.peekFirst();
+  public Integer dequeue() {
+    if (queue.isEmpty()) {
+      return -1;
     }
+    int removed = queue.remove();
+    if (removed == maxQueue.peekFirst()) {
+      maxQueue.removeFirst();
+    }
+    return removed;
+  }
+
+  public Integer max() {
+    if (maxQueue.isEmpty()) {
+      return -1;
+    }
+    return maxQueue.peekFirst();
+  }
 }

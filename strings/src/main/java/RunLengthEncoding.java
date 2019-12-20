@@ -4,14 +4,14 @@ public class RunLengthEncoding {
     7.12
     */
 
-    public static String encode(String s) {
+  public static String encode(String s) {
 
-        return "";
-    }
+    return "";
+  }
 
-    public static String decode(String s) {
+  public static String decode(String s) {
 
-        return "";
-    }
+    return "";
+  }
 
 }

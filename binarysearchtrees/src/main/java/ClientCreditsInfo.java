@@ -4,27 +4,27 @@ public class ClientCreditsInfo {
     15.13
     */
 
-    public void insert(String clientID, int c) {
+  public void insert(String clientID, int c) {
 
-    }
+  }
 
-    public boolean remove(String clientID) {
+  public boolean remove(String clientID) {
 
-        return false;
-    }
+    return false;
+  }
 
-    public int lookup(String clientID) {
+  public int lookup(String clientID) {
 
-        return -1;
-    }
+    return -1;
+  }
 
-    public void addAll(int c) {
+  public void addAll(int c) {
 
-    }
+  }
 
-    public String max() {
+  public String max() {
 
-        return "";
-    }
+    return "";
+  }
 
 }

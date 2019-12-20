@@ -7,8 +7,8 @@ public class ComputeIntersection {
     14.1
     */
 
-    public static List<Integer> intersection(List<Integer> A, List<Integer> B) {
+  public static List<Integer> intersection(List<Integer> A, List<Integer> B) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

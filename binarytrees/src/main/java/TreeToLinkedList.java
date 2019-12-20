@@ -7,9 +7,9 @@ public class TreeToLinkedList {
     10.14
     */
 
-    public static List<BinaryTree<Integer>> createListOfLeaves(BinaryTree<Integer> tree) {
+  public static List<BinaryTree<Integer>> createListOfLeaves(BinaryTree<Integer> tree) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 
 }

@@ -7,8 +7,8 @@ public class Rotate2DArray {
     6.18
     */
 
-    public static List<List<Integer>> rotateMatix(List<List<Integer>> squareMatrix) {
+  public static List<List<Integer>> rotateMatix(List<List<Integer>> squareMatrix) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

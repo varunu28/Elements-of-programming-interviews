@@ -7,8 +7,8 @@ public class ComputeGrayCode {
     16.10
     */
 
-    public static List<Integer> grayCode(int numBits) {
+  public static List<Integer> grayCode(int numBits) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

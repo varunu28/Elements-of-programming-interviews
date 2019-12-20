@@ -6,9 +6,9 @@ public class FindMinAndMax {
     12.7
     */
 
-    public static MinMax findMinMax(List<Integer> list) {
+  public static MinMax findMinMax(List<Integer> list) {
 
-        return new MinMax(0,0);
-    }
+    return new MinMax(0, 0);
+  }
 
 }

@@ -7,8 +7,8 @@ public class SampleOnlineData {
     6.12
     */
 
-    public static List<Integer> runningSample(int k, List<Integer> sequence) {
+  public static List<Integer> runningSample(int k, List<Integer> sequence) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

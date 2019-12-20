@@ -7,8 +7,8 @@ public class MergeIntervals {
     14.5
     */
 
-    public static List<Tuple> addInterval(List<Tuple> disjoint, Tuple newInterval) {
+  public static List<Tuple> addInterval(List<Tuple> disjoint, Tuple newInterval) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

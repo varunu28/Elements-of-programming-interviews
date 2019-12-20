@@ -8,10 +8,10 @@ public class ComputeKClosest {
     11.4
     */
 
-    private static final Star EARTH_COORDINATES = new Star(0,0,0);
+  private static final Star EARTH_COORDINATES = new Star(0, 0, 0);
 
-    public static List<Star> getKClosest(int k, Iterator<Star> stars) {
+  public static List<Star> getKClosest(int k, Iterator<Star> stars) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

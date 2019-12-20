@@ -8,8 +8,8 @@ public class BedBathBeyondProblem {
     17.7
     */
 
-    public static List<String> decompose(String domain, Set<String> dictionary) {
+  public static List<String> decompose(String domain, Set<String> dictionary) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

@@ -6,7 +6,7 @@ public class PaintBooleanMatrix {
     19.2
     */
 
-    public static void flipColor(List<List<Boolean>> A, int x, int y) {
+  public static void flipColor(List<List<Boolean>> A, int x, int y) {
 
-    }
+  }
 }

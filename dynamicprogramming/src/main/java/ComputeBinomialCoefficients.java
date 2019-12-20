@@ -4,8 +4,8 @@ public class ComputeBinomialCoefficients {
     17.4
     */
 
-    public static int compute(int n, int k) {
+  public static int compute(int n, int k) {
 
-        return 0;
-    }
+    return 0;
+  }
 }

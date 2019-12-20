@@ -1,11 +1,12 @@
 public class ServiceRequest {
-    private String w;
 
-    public ServiceRequest(String w) {
-        this.w = w;
-    }
+  private String w;
 
-    public String extractWordToCheckFromRequest() {
-        return w;
-    }
+  public ServiceRequest(String w) {
+    this.w = w;
+  }
+
+  public String extractWordToCheckFromRequest() {
+    return w;
+  }
 }

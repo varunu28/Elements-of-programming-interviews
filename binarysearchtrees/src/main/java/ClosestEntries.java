@@ -6,8 +6,8 @@ public class ClosestEntries {
     15.6
     */
 
-    public static int findMin(List<List<Integer>> sortedArrays) {
+  public static int findMin(List<List<Integer>> sortedArrays) {
 
-        return 0;
-    }
+    return 0;
+  }
 }

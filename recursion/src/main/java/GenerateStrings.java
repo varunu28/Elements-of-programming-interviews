@@ -7,8 +7,8 @@ public class GenerateStrings {
     16.6
     */
 
-    public static List<String> generateBalancedParentheses(int numpairs) {
+  public static List<String> generateBalancedParentheses(int numpairs) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

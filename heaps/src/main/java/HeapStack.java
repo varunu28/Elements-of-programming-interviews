@@ -4,17 +4,17 @@ public class HeapStack {
     11.7
     */
 
-    public void push(Integer x) {
+  public void push(Integer x) {
 
-    }
+  }
 
-    public Integer pop() {
+  public Integer pop() {
 
-        return 0;
-    }
+    return 0;
+  }
 
-    public Integer peek() {
+  public Integer peek() {
 
-        return 0;
-    }
+    return 0;
+  }
 }

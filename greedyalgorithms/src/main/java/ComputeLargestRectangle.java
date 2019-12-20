@@ -6,8 +6,8 @@ public class ComputeLargestRectangle {
     18.8
     */
 
-    public static int calculateLargestRectangle(List<Integer> heights) {
+  public static int calculateLargestRectangle(List<Integer> heights) {
 
-        return 0;
-    }
+    return 0;
+  }
 }

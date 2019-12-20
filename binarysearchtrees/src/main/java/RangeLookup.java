@@ -7,9 +7,9 @@ public class RangeLookup {
     15.12
     */
 
-    public static List<Integer> range(BinaryTree<Integer> tree,
-                                    Tuple tuple) {
+  public static List<Integer> range(BinaryTree<Integer> tree,
+      Tuple tuple) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

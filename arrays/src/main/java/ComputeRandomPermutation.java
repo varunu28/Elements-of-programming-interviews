@@ -7,9 +7,9 @@ public class ComputeRandomPermutation {
     6.13
     */
 
-    public static List<Integer> computeRandomPermutation(int n) {
+  public static List<Integer> computeRandomPermutation(int n) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }
 

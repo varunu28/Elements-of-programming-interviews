@@ -6,8 +6,8 @@ public class KnapsackProblem {
     17.6
     */
 
-    public static int compute(List<Tuple> items, int capacity) {
+  public static int compute(List<Tuple> items, int capacity) {
 
-        return 0;
-    }
+    return 0;
+  }
 }

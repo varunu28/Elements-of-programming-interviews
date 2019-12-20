@@ -4,8 +4,8 @@ public class CountMovesToClimbStairs {
     17.10
     */
 
-    public static int numberOfWays(int top, int maximumStep) {
+  public static int numberOfWays(int top, int maximumStep) {
 
-        return 0;
-    }
+    return 0;
+  }
 }

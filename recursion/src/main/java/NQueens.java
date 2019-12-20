@@ -7,8 +7,8 @@ public class NQueens {
     16.2
     */
 
-    public static List<List<Integer>> nQueens(int n) {
+  public static List<List<Integer>> nQueens(int n) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

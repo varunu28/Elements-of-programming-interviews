@@ -7,26 +7,27 @@ public class EnumerateEntries {
     15.7
     */
 
-    public static class ABSqrt2 implements Comparable<ABSqrt2> {
-        public int a, b;
-        public double val;
+  public static List<ABSqrt2> generateFirst(int k) {
 
-        public ABSqrt2(int a, int b) {
-            this.a = a;
-            this.b = b;
-            this.val = a + b * Math.sqrt(2);
-        }
+    return Collections.emptyList();
+  }
 
-        @Override
-        public int compareTo(ABSqrt2 o) {
-            return Double.compare(val, o.val);
-        }
+  public static class ABSqrt2 implements Comparable<ABSqrt2> {
+
+    public int a, b;
+    public double val;
+
+    public ABSqrt2(int a, int b) {
+      this.a = a;
+      this.b = b;
+      this.val = a + b * Math.sqrt(2);
     }
 
-    public static List<ABSqrt2> generateFirst(int k) {
-
-        return Collections.emptyList();
+    @Override
+    public int compareTo(ABSqrt2 o) {
+      return Double.compare(val, o.val);
     }
+  }
 
 
 }

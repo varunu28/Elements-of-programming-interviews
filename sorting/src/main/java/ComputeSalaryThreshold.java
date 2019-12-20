@@ -6,8 +6,8 @@ public class ComputeSalaryThreshold {
     14.10
     */
 
-    public static double findSalaryCap(double targetPayroll, List<Double> currentSalaries) {
+  public static double findSalaryCap(double targetPayroll, List<Double> currentSalaries) {
 
-        return 0;
-    }
+    return 0;
+  }
 }

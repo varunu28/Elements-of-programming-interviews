@@ -1,46 +1,46 @@
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
-import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class IsBSTTest {
 
-    private boolean expected;
-    private BinaryTree<Integer> tree;
+  private boolean expected;
+  private BinaryTree<Integer> tree;
 
-    @Test
-    public void isBST1() throws Exception {
-        expected = false;
-        tree = BinaryTreeUtil.getEvenTree();
+  @Test
+  public void isBST1() throws Exception {
+    expected = false;
+    tree = BinaryTreeUtil.getEvenTree();
 
-        test(expected, tree);
-    }
+    test(expected, tree);
+  }
 
-    @Test
-    public void isBST2() throws Exception {
-        expected = true;
-        tree = BinaryTreeUtil.getEvenBST();
+  @Test
+  public void isBST2() throws Exception {
+    expected = true;
+    tree = BinaryTreeUtil.getEvenBST();
 
-        test(expected, tree);
-    }
+    test(expected, tree);
+  }
 
-    @Test
-    public void isBST3() throws Exception {
-        expected = false;
-        tree = BinaryTreeUtil.getFigureTenDotOne();
+  @Test
+  public void isBST3() throws Exception {
+    expected = false;
+    tree = BinaryTreeUtil.getFigureTenDotOne();
 
-        test(expected, tree);
-    }
+    test(expected, tree);
+  }
 
-    @Test
-    public void isBST4() throws Exception {
-        expected = true;
-        tree = BinaryTreeUtil.getFigureFifteenDotOne();
+  @Test
+  public void isBST4() throws Exception {
+    expected = true;
+    tree = BinaryTreeUtil.getFigureFifteenDotOne();
 
-        test(expected, tree);
-    }
+    test(expected, tree);
+  }
 
-    private void test(boolean expected, BinaryTree<Integer> tree) {
-        assertEquals(expected, IsBST.isBST(tree));
-    }
+  private void test(boolean expected, BinaryTree<Integer> tree) {
+    assertEquals(expected, IsBST.isBST(tree));
+  }
 
 }

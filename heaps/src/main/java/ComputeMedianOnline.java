@@ -8,8 +8,8 @@ public class ComputeMedianOnline {
     11.5
     */
 
-    public static List<Double> onlineMedian(Iterator<Integer> sequence) {
+  public static List<Double> onlineMedian(Iterator<Integer> sequence) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

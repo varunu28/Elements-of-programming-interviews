@@ -1,36 +1,36 @@
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
-import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class RealSquareRootTest {
 
-    private final double EPSILON = .01;
+  private final double EPSILON = .01;
 
-    private double x;
+  private double x;
 
-    @Test
-    public void squareRoot1() throws Exception {
-        x = 2.3;
+  @Test
+  public void squareRoot1() throws Exception {
+    x = 2.3;
 
-        test(x);
-    }
+    test(x);
+  }
 
-    @Test
-    public void squareRoot3() throws Exception {
-        x = 534234.948;
+  @Test
+  public void squareRoot3() throws Exception {
+    x = 534234.948;
 
-        test(x);
-    }
+    test(x);
+  }
 
-    @Test
-    public void squareRoot4() throws Exception {
-        x = 100000;
+  @Test
+  public void squareRoot4() throws Exception {
+    x = 100000;
 
-        test(x);
-    }
+    test(x);
+  }
 
-    private void test(double x) {
-        assertEquals(Math.sqrt(x), RealSquareRoot.squareRoot(x),EPSILON);
-    }
+  private void test(double x) {
+    assertEquals(Math.sqrt(x), RealSquareRoot.squareRoot(x), EPSILON);
+  }
 
 }

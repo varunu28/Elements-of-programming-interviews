@@ -7,8 +7,8 @@ public class GeneratePermutations {
     16.3
     */
 
-    public static List<List<Integer>> permutations(List<Integer> A) {
+  public static List<List<Integer>> permutations(List<Integer> A) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }

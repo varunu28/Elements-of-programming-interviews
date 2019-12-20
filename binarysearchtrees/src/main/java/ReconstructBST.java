@@ -6,8 +6,8 @@ public class ReconstructBST {
     15.5
     */
 
-    public static BinaryTree<Integer> reconstruct(List<Integer> preOrder) {
+  public static BinaryTree<Integer> reconstruct(List<Integer> preOrder) {
 
-        return new BinaryTree<>(0);
-    }
+    return new BinaryTree<>(0);
+  }
 }

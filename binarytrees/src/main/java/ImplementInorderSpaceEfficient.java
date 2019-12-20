@@ -7,8 +7,8 @@ public class ImplementInorderSpaceEfficient {
     10.11
     */
 
-    public static List<Integer> inorderTraversal(BinaryTreeParent<Integer> tree) {
+  public static List<Integer> inorderTraversal(BinaryTreeParent<Integer> tree) {
 
-        return Collections.emptyList();
-    }
+    return Collections.emptyList();
+  }
 }
